@@ -1,5 +1,6 @@
 # Sibling-Checker-JS-
 
+```
   var a = document.querySelectorAll('.hero');
   if (a.length > 0) {
       if (a[0].previousElementSibling == null) {
@@ -11,7 +12,10 @@
       console.log("No elements with the class 'hero' found.");
   }
 
+```
 
+
+```
   <div> Top 5 Sigma
       <ul>
           <li>Suresh</li>
@@ -22,6 +26,8 @@
           <li>Suresh</li>
       </ul>
   </div>
+
+  ```
 
 
 
